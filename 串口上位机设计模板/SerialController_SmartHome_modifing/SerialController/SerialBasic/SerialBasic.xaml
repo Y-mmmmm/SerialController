@@ -1,0 +1,198 @@
+﻿<UserControl x:Class="SerialController.SerialBasic"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             VerticalAlignment="Stretch" HorizontalAlignment="Stretch" MinWidth="785" MinHeight="570" Background="White">
+
+
+    <!--定义窗口网格-->
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="342"/>
+            <RowDefinition Height="199"/>
+            <RowDefinition Height="29"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="219"/>
+            <ColumnDefinition Width="501"/>
+        </Grid.ColumnDefinitions>
+
+
+        <!--串口配置面板-->
+        <Border x:Name="serialSettingBorder" BorderBrush="#FFC5BCBC" BorderThickness="1" Padding="2,2,2,2" Margin="5,5,5,0" Grid.Row="0" Grid.Column="0"  VerticalAlignment="Top" Height="215" >
+
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="34*"/>
+                    <ColumnDefinition Width="53*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Margin="5,5,5,5"  Content="端口" FontSize="15" Grid.Row="0" Grid.Column="0" Height="32" VerticalAlignment="Top" Grid.RowSpan="2" />
+                <ComboBox x:Name="portNamesCombobox" SelectedIndex="0" Margin="5,5,5,5" Grid.Row="0" Grid.Column="1"/>
+
+                <Label Margin="5,5,5,5"  Content="波特率" FontSize="15" Grid.Row="1" Grid.Column="0" Height="32" VerticalAlignment="Top" Grid.RowSpan="2" />
+                <ComboBox x:Name="baudRateCombobox" SelectedIndex="11" Margin="5,5,5,5" Grid.Row="1" Grid.Column="1" SelectionChanged="baudRateCombobox_SelectionChanged">
+                    <ComboBoxItem Content="300"/>
+                    <ComboBoxItem Content="600"/>
+                    <ComboBoxItem Content="1200"/>
+                    <ComboBoxItem Content="2400"/>
+                    <ComboBoxItem Content="4800"/>
+                    <ComboBoxItem Content="9600"/>
+                    <ComboBoxItem Content="19200"/>
+                    <ComboBoxItem Content="38400"/>
+                    <ComboBoxItem Content="43000"/>
+                    <ComboBoxItem Content="56000"/>
+                    <ComboBoxItem Content="57600"/>
+                    <ComboBoxItem Content="115200"/>
+                    <ComboBoxItem Content="128000"/>
+                    <ComboBoxItem Content="230400"/>
+                    <ComboBoxItem Content="256000"/>
+                    <ComboBoxItem Content="460800"/>
+                    <ComboBoxItem Content="921600"/>
+                    <!--TBD 添加自定义串口波特率-->
+                </ComboBox>
+                <Label Margin="5,5,5,5"  Content="校验位" FontSize="15" Grid.Row="2" Grid.Column="0" Height="32" VerticalAlignment="Top" Grid.RowSpan="2" />
+                <ComboBox x:Name="parityCombobox" SelectedIndex="0" Margin="5,5,5,5" Grid.Row="2" Grid.Column="1">
+                    <ComboBoxItem Content="None"/>
+                    <ComboBoxItem Content="Odd"/>
+                    <ComboBoxItem Content="Even"/>
+                    <ComboBoxItem Content="Mark"/>
+                    <ComboBoxItem Content="Space"/>
+                </ComboBox>
+                <Label Margin="5,5,5,5"  Content="数据位" FontSize="15" Grid.Row="3" Grid.Column="0" Height="32" VerticalAlignment="Top" Grid.RowSpan="2" />
+                <ComboBox x:Name="dataBitsCombobox" SelectedIndex="3" Margin="5,5,5,5" Grid.Row="3" Grid.Column="1">
+                    <ComboBoxItem Content="5"/>
+                    <ComboBoxItem Content="6"/>
+                    <ComboBoxItem Content="7"/>
+                    <ComboBoxItem Content="8"/>
+                </ComboBox>
+                <Label Margin="5,5,5,5"  Content="停止位" FontSize="15" Grid.Row="4" Grid.Column="0" Height="32" VerticalAlignment="Top" Grid.RowSpan="2" />
+                <ComboBox x:Name="stopBitsCombobox" SelectedIndex="0" Margin="5,5,5,5" Grid.Row="4" Grid.Column="1">
+                    <ComboBoxItem Content="1"/>
+                    <ComboBoxItem Content="1.5"/>
+                    <ComboBoxItem Content="2"/>
+                </ComboBox>
+                <Ellipse Name="serialPortStatusEllipse" Fill="Gray" HorizontalAlignment="Left" Height="26" Margin="27,5,0,0" Grid.Row="5" Stroke="White" VerticalAlignment="Top" Width="26"/>
+
+                <ToggleButton x:Name="turnOnButton" Content="打开串口" Margin="5,5,5,5" Grid.Row="5" Grid.Column="1" Checked="TurnOnButton_Checked" Unchecked="TurnOnButton_Unchecked" ></ToggleButton>
+            </Grid>
+        </Border>
+
+        <!--串口接收面板-->
+        <Border BorderBrush="#FFC5BCBC"  BorderThickness="1" Padding="2,2,2,2" Margin="5,224,5,0" Grid.Column="0"  Grid.Row="0" Height="112" VerticalAlignment="Top" >
+            <Grid Height="107" VerticalAlignment="Top" Margin="-3,0,0,0" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="51*"/>
+                    <RowDefinition Height="56*"/>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="85*"/>
+                    <ColumnDefinition Width="122*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="温度" FontSize="20" HorizontalAlignment="Center" Margin="10,0,0,0" VerticalAlignment="Center" Height="46" Width="70"/>
+                <Label Content="湿度" FontSize="20" HorizontalAlignment="Center" Margin="10,0,0,0" VerticalAlignment="Center" Grid.Row="1" Height="46" Width="70"/>
+                <Label Content="°C" FontSize="20"  Grid.Column="1" HorizontalAlignment="Center" Margin="71,2,13,13" VerticalAlignment="Center" Width="38"/>
+                <Label Content="%" FontSize="20" Grid.Column="1" HorizontalAlignment="Center" Margin="71,2,13,13" VerticalAlignment="Center" Grid.Row="1" Width="38"/>
+                <TextBox x:Name="TempureNumber" FontSize="20" Grid.Column="1" HorizontalAlignment="Left" Height="39" Margin="14,4,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="57" IsReadOnly="True" BorderThickness="0"/>
+                <TextBox x:Name="HumidityNumber" FontSize="20" Grid.Column="1" HorizontalAlignment="Left" Height="39" Margin="14,7,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="57" Grid.Row="1" IsReadOnly="True" BorderThickness="0"/>
+
+            </Grid>
+        </Border>
+
+        <!--串口发送面板-->
+        <Border Name="sendControlBorder"  BorderBrush="#FFC5BCBC" BorderThickness="1" Padding="2,2,2,2" Margin="5,0,5,6" Grid.Column="0" Height="185" VerticalAlignment="Bottom" Grid.Row="1" >
+            <Grid Margin="0,0,0,0" Height="180" VerticalAlignment="Top" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <!--<RowDefinition Height="1*"/>-->
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+
+                </Grid.ColumnDefinitions>
+                <Label Content="开关中控" FontSize="18" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="82" Height="36"/>
+
+                <ToggleButton x:Name="TotalSwitchOpen" Content="关闭" Margin="46,9.667,10,10" Checked="TotalSwitchOpen_Checked" Unchecked="TotalSwitchOpen_UnChecked" RenderTransformOrigin="0.5,0.507" Grid.Row="1" />
+                <ToggleButton x:Name="Switch1Open" Content="关闭" Margin="44,9.667,10,10" Checked="Switch1Open_Checked" Unchecked="Switch1Open_Unchecked" RenderTransformOrigin="0.5,0.507" Grid.Column="1" Grid.Row="1" />
+                <ToggleButton x:Name="Switch2Open" Content="关闭" Margin="46,10,10,10.333" Checked="Switch2Open_Checked" Unchecked="Switch2Open_Unchecked" RenderTransformOrigin="0.5,0.507" Grid.Row="2" />
+                <ToggleButton x:Name="Switch3Open" Content="关闭" Margin="44,10,10,10.333" Checked="Switch3Open_Checked" Unchecked="Switch3Open_Unchecked" RenderTransformOrigin="0.5,0.507" Grid.Column="1" Grid.Row="2" />
+                <ToggleButton x:Name="Switch4Open" Content="关闭" Margin="46,9.667,10,10" Checked="Switch4Open_Checked" Unchecked="Switch4Open_Unchecked" RenderTransformOrigin="0.5,0.507" Grid.Row="3" />
+                <ToggleButton x:Name="Switch5Open" Content="关闭" Margin="44,9.667,10,10" Checked="Switch5Open_Checked" Unchecked="Switch5Open_Unchecked" RenderTransformOrigin="0.5,0.507" Grid.Column="1" Grid.Row="3" />
+                <Label Content="总开关" HorizontalAlignment="Left" Margin="-2,9.667,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+                <Label Content="开关2" HorizontalAlignment="Left" Margin="2,10,0,0" VerticalAlignment="Top" Grid.Row="2"/>
+                <Label Content="开关4" HorizontalAlignment="Left" Margin="2,9.667,0,0" VerticalAlignment="Top" Grid.Row="3"/>
+                <Label Content="开关1" HorizontalAlignment="Left" Margin="0,9.667,0,0" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1"/>
+                <Label Content="开关3" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1"/>
+                <Label Content="开关5" HorizontalAlignment="Left" Margin="0,9.667,0,0" VerticalAlignment="Top" Grid.Row="3" Grid.Column="1"/>
+
+            </Grid>
+        </Border>
+
+        <Grid Grid.Row="2"  Grid.ColumnSpan="2" Margin="5,2,5,2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="87"></ColumnDefinition>
+                <ColumnDefinition Width="97"></ColumnDefinition>
+                <ColumnDefinition Width="83"></ColumnDefinition>
+                <ColumnDefinition Width="108"></ColumnDefinition>
+                <ColumnDefinition Width="81"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <!--提示栏-->
+            <TextBlock HorizontalAlignment="Stretch" Name="statusTextBlock" Foreground="Red" Grid.Column="0" ></TextBlock>
+
+        </Grid>
+        <Border Name="MenuControlBorder"  BorderBrush="#FFC5BCBC" BorderThickness="1" Padding="2,2,2,2" Margin="5,0,-55,5" Grid.Column="1" Height="331" VerticalAlignment="Bottom" >
+            <Grid HorizontalAlignment="Left" Height="311" VerticalAlignment="Top" Width="532" Margin="7,7,0,0">
+                <Label Content="节点1" FontSize="15" HorizontalAlignment="Left" Margin="49,50,0,0" VerticalAlignment="Top"/>
+                <Label Content="节点2" FontSize="15" HorizontalAlignment="Left" Margin="49,99,0,0" VerticalAlignment="Top"/>
+                <Label Content="节点3" FontSize="15" HorizontalAlignment="Left" Margin="49,151,0,0" VerticalAlignment="Top"/>
+                <Label Content="节点4" FontSize="15" HorizontalAlignment="Left" Margin="49,199,0,0" VerticalAlignment="Top"/>
+                <Label Content="节点5" FontSize="15" HorizontalAlignment="Left" Margin="49,254,0,0" VerticalAlignment="Top"/>
+                <Ellipse x:Name="Node1StatusEllipse" Fill="Gray" HorizontalAlignment="Left" Height="26" Margin="139,53,0,0" Stroke="White" VerticalAlignment="Top" Width="26"/>
+                <Ellipse x:Name="Node2StatusEllipse" Fill="Gray" HorizontalAlignment="Left" Height="26" Margin="139,102,0,0" Stroke="White" VerticalAlignment="Top" Width="26"/>
+                <Ellipse x:Name="Node3StatusEllipse" Fill="Gray" HorizontalAlignment="Left" Height="26" Margin="139,154,0,0" Stroke="White" VerticalAlignment="Top" Width="26"/>
+                <Ellipse x:Name="Node4StatusEllipse" Fill="Gray" HorizontalAlignment="Left" Height="26" Margin="139,202,0,0" Stroke="White" VerticalAlignment="Top" Width="26"/>
+                <Ellipse x:Name="Node5StatusEllipse" Fill="Gray" HorizontalAlignment="Left" Height="26" Margin="139,257,0,0" Stroke="White" VerticalAlignment="Top" Width="26"/>
+                <TextBlock HorizontalAlignment="Stretch" x:Name="Node1statusTextBlock" Foreground="Red" Grid.Column="0" Margin="185,55,90,231" IsHitTestVisible="True" />
+                <TextBlock HorizontalAlignment="Stretch" x:Name="Node2statusTextBlock" Foreground="Red" Grid.Column="0" Margin="185,103,90,183" />
+                <TextBlock HorizontalAlignment="Stretch" x:Name="Node3statusTextBlock" Foreground="Red" Grid.Column="0" Margin="185,155,90,131" />
+                <TextBlock HorizontalAlignment="Stretch" x:Name="Node4statusTextBlock" Foreground="Red" Grid.Column="0" Margin="185,203,90,83" />
+                <TextBlock HorizontalAlignment="Stretch" x:Name="Node5statusTextBlock" Foreground="Red" Grid.Column="0" Margin="185,258,90,28" />
+                <Label Content="节点状态栏" FontSize="20" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+            </Grid>
+
+        </Border>
+
+
+        <Border Name="Menu1ControlBorder"  BorderBrush="#FFC5BCBC" BorderThickness="1" Padding="2,2,2,2" Margin="5,0,-55,5" Height="185" VerticalAlignment="Bottom" Grid.Column="1" Grid.Row="1" >
+            <Grid HorizontalAlignment="Left" Height="165" VerticalAlignment="Top" Width="532" Margin="7,7,0,0">
+                <ComboBox x:Name="LightModeConboBox" FontSize="15" HorizontalAlignment="Left" Margin="130,14,0,0" SelectedIndex="0" VerticalAlignment="Top" Width="120" SelectionChanged="LightModeConboBox_SelectionChanged" Height="30">
+                    <ComboBoxItem  Content="灯光模式1" HorizontalAlignment="Left" Width="118"/>
+                    <ComboBoxItem  Content="灯光模式2" HorizontalAlignment="Left" Width="118"/>
+                    <ComboBoxItem  Content="灯光模式3" HorizontalAlignment="Left" Width="118"/>
+                    <ComboBoxItem  Content="关灯" HorizontalAlignment="Left" Width="118"/>
+                </ComboBox>
+                <Label Content="灯光控制" FontSize="18" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120"/>
+            </Grid>
+        </Border>
+
+    </Grid>
+</UserControl>

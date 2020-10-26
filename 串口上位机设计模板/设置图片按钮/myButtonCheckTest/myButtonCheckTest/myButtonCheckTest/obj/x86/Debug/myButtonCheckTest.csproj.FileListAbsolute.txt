@@ -1,0 +1,28 @@
+G:\myCsharp\VS2010\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\myCsharp\VS2010\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.myButtonCheck.resources
+G:\myCsharp\VS2010\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.Properties.Resources.resources
+G:\myCsharp\VS2010\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\myCsharp\VS2010\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\myCsharp\VS2010\myButtonCheckTest\myButtonCheckTest\bin\Debug\myButtonCheckTest.exe
+G:\myCsharp\VS2010\myButtonCheckTest\myButtonCheckTest\bin\Debug\myButtonCheckTest.pdb
+G:\myCsharp\VS2010\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.exe
+G:\myCsharp\VS2010\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.pdb
+G:\myCsharp\VS2010\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.Form1.resources
+C:\Users\Administrator\Desktop\SerialController - 副本\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\bin\Debug\myButtonCheckTest.exe
+C:\Users\Administrator\Desktop\SerialController - 副本\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\bin\Debug\myButtonCheckTest.pdb
+C:\Users\Administrator\Desktop\SerialController - 副本\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\SerialController - 副本\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.Form1.resources
+C:\Users\Administrator\Desktop\SerialController - 副本\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.myButtonCheck.resources
+C:\Users\Administrator\Desktop\SerialController - 副本\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.Properties.Resources.resources
+C:\Users\Administrator\Desktop\SerialController - 副本\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\SerialController - 副本\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.exe
+C:\Users\Administrator\Desktop\SerialController - 副本\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.pdb
+C:\Users\11315\Desktop\串口上位机设计模板\设置图片按钮\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.exe
+C:\Users\11315\Desktop\串口上位机设计模板\设置图片按钮\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.pdb
+C:\Users\11315\Desktop\串口上位机设计模板\设置图片按钮\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\bin\Debug\myButtonCheckTest.exe
+C:\Users\11315\Desktop\串口上位机设计模板\设置图片按钮\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\bin\Debug\myButtonCheckTest.pdb
+C:\Users\11315\Desktop\串口上位机设计模板\设置图片按钮\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.csprojResolveAssemblyReference.cache
+C:\Users\11315\Desktop\串口上位机设计模板\设置图片按钮\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.Form1.resources
+C:\Users\11315\Desktop\串口上位机设计模板\设置图片按钮\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.myButtonCheck.resources
+C:\Users\11315\Desktop\串口上位机设计模板\设置图片按钮\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.Properties.Resources.resources
+C:\Users\11315\Desktop\串口上位机设计模板\设置图片按钮\myButtonCheckTest\myButtonCheckTest\myButtonCheckTest\obj\x86\Debug\myButtonCheckTest.csproj.GenerateResource.Cache

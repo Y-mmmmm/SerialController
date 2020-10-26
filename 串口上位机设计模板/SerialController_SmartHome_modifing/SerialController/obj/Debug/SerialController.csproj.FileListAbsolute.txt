@@ -1,0 +1,111 @@
+C:\Users\Administrator\Desktop\SerialController\SerialController\bin\Debug\SerialController.exe.config
+C:\Users\Administrator\Desktop\SerialController\SerialController\bin\Debug\SerialController.exe
+C:\Users\Administrator\Desktop\SerialController\SerialController\bin\Debug\SerialController.pdb
+C:\Users\Administrator\Desktop\SerialController\SerialController\obj\Debug\SerialBasic\SerialBasic.baml
+C:\Users\Administrator\Desktop\SerialController\SerialController\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\SerialController\SerialController\obj\Debug\SerialBasic\SerialBasic.g.cs
+C:\Users\Administrator\Desktop\SerialController\SerialController\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\SerialController\SerialController\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\SerialController\SerialController\obj\Debug\SerialController_MarkupCompile.cache
+C:\Users\Administrator\Desktop\SerialController\SerialController\obj\Debug\SerialController_MarkupCompile.lref
+C:\Users\Administrator\Desktop\SerialController\SerialController\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\SerialController\SerialController\obj\Debug\SerialController.g.resources
+C:\Users\Administrator\Desktop\SerialController\SerialController\obj\Debug\SerialController.Properties.Resources.resources
+C:\Users\Administrator\Desktop\SerialController\SerialController\obj\Debug\SerialController.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\SerialController\SerialController\obj\Debug\SerialController.exe
+C:\Users\Administrator\Desktop\SerialController\SerialController\obj\Debug\SerialController.pdb
+C:\Users\Administrator\Desktop\SerialController\SerialController\obj\Debug\SerialController.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SerialController - 副本\SerialController\bin\Debug\SerialController.exe.config
+C:\Users\Administrator\Desktop\SerialController - 副本\SerialController\obj\Debug\SerialController.exe
+C:\Users\Administrator\Desktop\SerialController - 副本\SerialController\obj\Debug\SerialController.pdb
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\bin\Debug\SerialController.exe.config
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\obj\Debug\SerialController.exe
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\obj\Debug\SerialController.pdb
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\obj\Debug\SerialController.csprojResolveAssemblyReference.cache
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\obj\Debug\SerialBasic\SerialBasic.baml
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\obj\Debug\MainWindow.g.cs
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\obj\Debug\SerialBasic\SerialBasic.g.cs
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\obj\Debug\App.g.cs
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\obj\Debug\SerialController_MarkupCompile.cache
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\obj\Debug\SerialController_MarkupCompile.lref
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\bin\Debug\SerialController.exe
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\bin\Debug\SerialController.pdb
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\obj\Debug\MainWindow.baml
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\obj\Debug\SerialController.g.resources
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\obj\Debug\SerialController.Properties.Resources.resources
+C:\Users\11315\Desktop\串口上位机设计模板\SerialController - 智能家居\SerialController\obj\Debug\SerialController.csproj.GenerateResource.Cache
+C:\Users\11315\Desktop\软著\软著文档\智能家居串口上位机\SerialController - 智能家居\SerialController\bin\Debug\SerialController.exe.config
+C:\Users\11315\Desktop\软著\软著文档\智能家居串口上位机\SerialController - 智能家居\SerialController\obj\Debug\SerialController.exe
+C:\Users\11315\Desktop\软著\软著文档\智能家居串口上位机\SerialController - 智能家居\SerialController\obj\Debug\SerialController.pdb
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\bin\Debug\SerialController.exe.config
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\obj\Debug\SerialController.exe
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\obj\Debug\SerialController.pdb
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\bin\Debug\SerialController.exe
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\bin\Debug\SerialController.pdb
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\obj\Debug\SerialController.csprojResolveAssemblyReference.cache
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\obj\Debug\SerialBasic\SerialBasic.baml
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\obj\Debug\MainWindow.g.cs
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\obj\Debug\SerialBasic\SerialBasic.g.cs
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\obj\Debug\App.g.cs
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\obj\Debug\SerialController_MarkupCompile.cache
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\obj\Debug\SerialController_MarkupCompile.lref
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\obj\Debug\MainWindow.baml
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\obj\Debug\SerialController.g.resources
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\obj\Debug\SerialController.Properties.Resources.resources
+C:\Users\11315\Desktop\SerialController - 智能家居\SerialController\obj\Debug\SerialController.csproj.GenerateResource.Cache
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\bin\Debug\SerialController.exe.config
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\obj\Debug\SerialController.exe
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\obj\Debug\SerialController.pdb
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\bin\Debug\SerialController.exe
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\bin\Debug\SerialController.pdb
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\obj\Debug\SerialController.csprojResolveAssemblyReference.cache
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\obj\Debug\SerialBasic\SerialBasic.baml
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\obj\Debug\MainWindow.g.cs
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\obj\Debug\SerialBasic\SerialBasic.g.cs
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\obj\Debug\App.g.cs
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\obj\Debug\SerialController_MarkupCompile.cache
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\obj\Debug\SerialController_MarkupCompile.lref
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\obj\Debug\MainWindow.baml
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\obj\Debug\SerialController.g.resources
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\obj\Debug\SerialController.Properties.Resources.resources
+C:\Users\11315\Desktop\SerialController_SmartHome\SerialController\obj\Debug\SerialController.csproj.GenerateResource.Cache
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\bin\Debug\SerialController.exe.config
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\obj\Debug\SerialController.exe
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\obj\Debug\SerialController.pdb
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\bin\Debug\SerialController.exe
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\bin\Debug\SerialController.pdb
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\obj\Debug\SerialController.csprojResolveAssemblyReference.cache
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\obj\Debug\SerialBasic\SerialBasic.baml
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\obj\Debug\MainWindow.g.cs
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\obj\Debug\SerialBasic\SerialBasic.g.cs
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\obj\Debug\App.g.cs
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\obj\Debug\SerialController_MarkupCompile.cache
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\obj\Debug\SerialController_MarkupCompile.lref
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\obj\Debug\MainWindow.baml
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\obj\Debug\SerialController.g.resources
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\obj\Debug\SerialController.Properties.Resources.resources
+C:\Users\11315\Desktop\SerialController_SmartHome - 副本\SerialController\obj\Debug\SerialController.csproj.GenerateResource.Cache
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\bin\Debug\SerialController.exe.config
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\bin\Debug\SerialController.exe
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\bin\Debug\SerialController.pdb
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\obj\Debug\SerialController.csprojResolveAssemblyReference.cache
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\obj\Debug\SerialBasic\SerialBasic.baml
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\obj\Debug\MainWindow.g.cs
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\obj\Debug\SerialBasic\SerialBasic.g.cs
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\obj\Debug\App.g.cs
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\obj\Debug\SerialController_MarkupCompile.cache
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\obj\Debug\SerialController_MarkupCompile.lref
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\obj\Debug\MainWindow.baml
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\obj\Debug\SerialController.g.resources
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\obj\Debug\SerialController.Properties.Resources.resources
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\obj\Debug\SerialController.csproj.GenerateResource.Cache
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\obj\Debug\SerialController.exe
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing\SerialController\obj\Debug\SerialController.pdb
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing - 副本\SerialController\bin\Debug\SerialController.exe.config
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing - 副本\SerialController\obj\Debug\SerialController.exe
+C:\Users\11315\Desktop\SerialController_SmartHome_modifing - 副本\SerialController\obj\Debug\SerialController.pdb

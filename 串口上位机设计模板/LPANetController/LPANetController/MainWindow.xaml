@@ -1,0 +1,22 @@
+﻿<Window x:Class="LPANetController.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:MultiFunction="clr-namespace:LPANetController"
+     
+        Title="液相分析仪" Name="softWareMainWindow" Width="900" Height="750" MinWidth="200"  MinHeight="150">
+    <Grid  >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="42*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl Name="functionTabControl" SelectionChanged="FunctionTabControl_SelectionChanged" Grid.ColumnSpan="2" Margin="0,0,0.333,-0.333">
+
+            <TabItem Header="上位机控制软件">
+                <MultiFunction:Network Margin="0,0,-3.667,-1.667" ></MultiFunction:Network>
+            </TabItem>
+
+
+        </TabControl>
+
+    </Grid>
+</Window>
